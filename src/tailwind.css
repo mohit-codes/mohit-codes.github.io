@@ -32585,6 +32585,7 @@ video {
 
 .chip {
   margin-right: 0.5rem;
+  cursor: pointer;
   border-radius: 0.75rem;
   border-width: 2px;
   --tw-border-opacity: 1;
