@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chip {
+  @apply px-3 py-1 border-2 border-paragraph rounded-xl mr-2 cursor-pointer;
+}

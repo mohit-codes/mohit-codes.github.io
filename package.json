@@ -1,28 +1,21 @@
 {
-  "name": "devportfolio-template",
-  "version": "1.1.3",
+  "name": "portfolio",
+  "version": "1.0.0",
   "description": "",
-  "main": "js/scripts.js",
+  "main": "index.js",
   "scripts": {
-    "watch": "gulp watch"
+    "dev": "npm run build && live-server src --port=8080",
+    "build": "postcss tailwind.css -o src/tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
-  ],
-  "author": "Ryan Fitzgerald",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2",
-    "gulp-wait": "0.0.2"
+    "autoprefixer": "^10.3.4",
+    "tailwindcss": "^2.2.15"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
   }
 }
