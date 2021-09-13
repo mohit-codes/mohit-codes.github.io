@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run build && live-server src --port=8080",
+    "dev": "npm run build && live-server src --port=8080 --watch=index.html",
     "build": "postcss tailwind.css -o src/tailwind.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
