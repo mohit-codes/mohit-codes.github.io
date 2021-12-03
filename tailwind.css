@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .chip {
-  @apply px-3 py-1 border-2 border-paragraph rounded-xl mr-2 cursor-pointer;
+  @apply px-3 py-1 mt-2 border-2 border-paragraph rounded-xl mr-2 cursor-pointer hover:bg-paragraph hover:text-black;
 }

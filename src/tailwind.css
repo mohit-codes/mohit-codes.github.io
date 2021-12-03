@@ -32584,16 +32584,30 @@ video {
 }
 
 .chip {
+  margin-top: 0.5rem;
   margin-right: 0.5rem;
   cursor: pointer;
   border-radius: 0.75rem;
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgba(171, 209, 198, var(--tw-border-opacity));
+}
+
+.chip:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(171, 209, 198, var(--tw-bg-opacity));
+}
+
+.chip {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.chip:hover {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
