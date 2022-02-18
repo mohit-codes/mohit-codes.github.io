@@ -32610,6 +32610,10 @@ video {
   color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
+.user-data {
+  background-image: url("../images/mohit.png");
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
